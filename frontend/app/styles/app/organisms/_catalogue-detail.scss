@@ -1,0 +1,60 @@
+// Catalogue
+.catalogue-detail,
+.result-detail {
+	table {
+		width: 100%;
+		border: 1px solid $clr-grey-mid;
+		overflow: hidden;
+		th {
+			padding: 5px;
+		}
+		.accepted {
+			td {
+				background: $clr-lightgreen;
+				color: $clr-green;
+			}
+		}
+		.declined,
+		.undone {
+			td {
+				background: $clr-lightred;
+				color: $clr-red;
+			}
+		}
+		.stop {
+			td {
+				font-weight: bold;
+			}
+		}
+		td {
+			padding: 5px 5px;
+			font-size: 90%;
+			line-height: 1.2em;
+			width: 30%;
+			height: 130px;
+			vertical-align: top;
+			padding: 5px;
+			&:last-child {
+				width: 10%;
+			}
+			span,
+			textarea {
+				width: 100%;
+				display: block;
+				height: 100%;
+				border: 0px;
+				margin: 0;
+				font-size: 100%;
+				padding: 0px;
+			}
+			.action {
+				display: inline-block;
+				font-size: 25px;
+				cursor: pointer;
+				&:first-child {
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+}

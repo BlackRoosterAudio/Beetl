@@ -1,0 +1,83 @@
+<!-- CATALOGUES DETAIL -->
+
+<div class="result-detail pad-3p">
+	<div class="inside">
+
+		<div class="row">
+			<!-- Title -->
+			<div class="col-lg-6 marg-b20">
+				<label for="title">Result Title</label>
+				<input id="title" type="text" data-ng-model="result.title" placeholder="Enter title" disabled="true">
+				<div class="description">Please enter the title for this result.</div>
+			</div>
+
+			<!-- Project -->
+			<div class="col-lg-6 marg-b20">
+				<label for="title">Project</label>
+				<select data-ng-model="result.project" data-ng-options="project._id as project.title for project in projects" disabled="true">
+					<option value="" disabled="disabled" selected="selected">- Bitte wählen -</option>
+				</select>
+				<div class="description">Please select the project that is bound to this result.</div>
+			</div>
+		</div>
+
+		<!-- Description -->
+		<div class="marg-b20">
+			<label for="description">Description</label>
+			<textarea id="description" data-ng-model="result.description" placeholder="Enter description" disabled="true"></textarea>
+			<div class="description">Please enter a description for this result.</div>
+		</div>
+
+		<!-- Step Table -->
+		<table class="table table-bordered table-hover table-condensed">
+			<thead>
+				<th>Test Step</th>
+				<th>Test Data</th>
+				<th>Expectation</th>
+				<th>Edit</th>
+			</thead>
+			<tr ng-repeat="step in result.data" data-ng-class="step.class">
+				<td>
+					<!-- editable stepname (text with validation) -->
+					<span editable-textarea="step.name" e-name="name" e-form="rowform">
+					{{ step.name }}
+					</span>
+				</td>
+				<td>
+					<!-- editable status (select-local) -->
+					<span editable-textarea="step.data" e-name="data" e-form="rowform">
+					{{ step.data }}
+					</span>
+				</td>
+				<td>
+					<!-- editable group (select-remote) -->
+					<span editable-textarea="step.expectation" e-name="expectation" e-form="rowform">
+					{{ step.expectation }}
+					</span>
+				</td>
+				<td>
+					<div data-ng-if="step.state === 'accepted'">
+						Accepted!
+					</div>
+					<div data-ng-if="step.state === 'declined'">
+						Failed!
+					</div>
+					<div data-ng-if="step.state === 'undone'">
+						Undone!
+					</div>
+				</td>
+			</tr>
+		</table>
+
+		<button data-ng-if="currentUser.isAdmin" class="btn btn-default" ng-click="addStep()">Add row</button>
+
+		<!-- Error Note -->	
+		<div class="marg-b20">
+			<label for="errorNote">Error Note / Bug Report</label>
+			<textarea id="errorNote" data-ng-model="result.errorNote" placeholder="Enter error note" disabled="true"></textarea>
+			<div class="description">Please enter the error note for this result (debug report).</div>
+		</div>
+	</div>
+</div>
+
+<div class="pad-b50"></div>

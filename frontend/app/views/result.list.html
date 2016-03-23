@@ -1,0 +1,24 @@
+<!-- RESULTS LIST -->
+
+<div class="result-list list">
+	<div class="inside">
+		<div data-ng-repeat="result in results track by result._id" data-ng-if="result.title" class="result list-item pad-3p">
+			<div class="row">
+				<a ui-sref="resultOverview({ id:result._id })">
+					<span class="col-lg-7 col-md-7 col-sm-11 col-xs-10 title">
+						<div class="row">
+							<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 index">{{ ($index + 1) }}.</div>
+							<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs orange">[{{ projects[result.project] }}]</div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-10">{{ result.title }}</div>
+						</div>
+					</span>
+					<span class="col-lg-5 col-md-5 hidden-sm hidden-xs updated">
+						{{ helper.dateFormat(result.timestamp) }}
+					</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="pad-b50"></div>

@@ -1,0 +1,36 @@
+<!-- CATALOGUES LIST -->
+
+<div class="catalogue-list list overview">
+	<div class="inside">
+		<div data-ng-repeat="catalogue in catalogues track by catalogue._id" data-ng-if="catalogue.title" class="catalogue list-item pad-3p">			
+			<div class="row">
+				<a ui-sref="catalogueDetail({ id:catalogue._id })">
+					<span class="col-lg-7 col-md-7 col-sm-11 col-xs-10 title">
+						<div class="row">
+							<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 index">{{ ($index + 1) }}.</div>
+							<div class="col-lg-2 col-md-2 col-sm-2 hidden-xs orange">[{{ projects[catalogue.project] }}]</div>
+							<div class="col-lg-9 col-md-9 col-sm-9 col-xs-10">{{ catalogue.title }}</div>
+						</div>
+					</span>
+					<span class="col-lg-4 col-md-4 hidden-sm hidden-xs updated">
+						{{ helper.dateFormat(catalogue.timestamp) }}
+					</span>
+				</a>
+				<span class="col-lg-1 col-md-1 col-sm-1 col-xs-2 mousehand text-right red" data-ng-click="deleteCatalogue(catalogue._id)">
+					<i class="glyphicon glyphicon-remove"></i>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Create new catalogue -->
+<div class="btn-wrapper marg-t20 pad-3p">
+	<div class="inside">
+		<button class="button" data-ng-click="createCatalogue()">
+			<span>+ Create new Catalogue</span>
+		</button>
+	</div>
+</div>
+
+<div class="pad-b50"></div>

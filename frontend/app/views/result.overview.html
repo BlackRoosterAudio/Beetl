@@ -1,0 +1,58 @@
+<!-- RESULTS DETAIL -->
+
+<div class="result-overview pad-3p" data-ng-if="total">
+	<div class="inside">
+
+		<!-- Success/Failure Pies -->
+		<div class="row marg-b40">
+			<div class="col-lg-4 text-center">
+				<div class="marg-b20">Completion (of {{ total }})</div>
+				<canvas id="doughnut" class="chart chart-doughnut" chart-data="completion.data" chart-labels="completion.labels" chart-colours="completion.colors" chart-legend="true"></canvas> 
+			</div>
+			<div class="col-lg-4 text-center">
+				<div class="marg-b20">Test Coverage ({{ total }} Tests / {{ totalSteps}} Steps total)</div>
+				<canvas id="doughnut" class="chart chart-doughnut" chart-data="coverage.data" chart-labels="coverage.labels" chart-colours="coverage.colors" chart-legend="true"></canvas> 
+			</div>
+			<div class="col-lg-4 text-center">
+				<div class="marg-b20">User Progress</div>
+				<canvas id="doughnut" class="chart chart-doughnut" chart-data="usage.data" chart-labels="usage.labels" chart-colours="usage.colors" chart-legend="true"></canvas> 
+			</div>
+		</div>
+
+		<!-- Matrix -->
+		<div class="result-matrix">
+			<table class="result-matrix">
+				<tr>
+					<td>&nbsp;</td>
+					<td data-ng-repeat="result in results track by $index">
+						<span class="inside" data-html="true" data-placement="top" bs-popover="userListFull[result.testedBy].name + '<br />' + userListFull[result.testedBy].osselect + '<br />' + userListFull[result.testedBy].osinfo + '<br />' + userListFull[result.testedBy].host + '<br />' + userListFull[result.testedBy].soundcard">
+							Result {{ ($index + 1) }}:<br>{{ userListFull[result.testedBy].osselect || '---' }}
+						</span>
+					</td>
+				</tr>
+
+				<tr data-ng-repeat="step in reference.data track by $index">
+					<td>
+						<span class="inside" data-html="true" data-placement="right" bs-popover="step.name">
+							Step {{ ($index + 1) }}
+						</span>
+					</td>
+					<td data-ng-repeat="result in results track by $index" data-ng-class="result.data[$parent.$index].class">
+						<a class="inside" ui-sref="resultDetail({ id:result._id })">
+							<span data-ng-if="result.data[$parent.$index].state === 'accepted'">OK</span>
+							<span data-ng-if="result.data[$parent.$index].state === 'declined'">FAIL</span>
+							<span data-ng-if="result.data[$parent.$index].state !== 'accepted' &&
+										      result.data[$parent.$index].state !== 'declined'">---</span>
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+
+<div class="result-overview pad-3p" data-ng-if="!total">
+	- The catalogue has no results yet -
+</div>
+
+<div class="pad-b50"></div>

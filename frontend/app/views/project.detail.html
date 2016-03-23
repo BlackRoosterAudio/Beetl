@@ -1,0 +1,35 @@
+<!-- PROJECT DETAIL -->
+
+<div class="project-detail pad-3p">
+	<div class="inside">
+
+		<div class="row">
+			<!-- Title -->
+			<div class="col-lg-6 marg-b20">
+				<label for="title">Project Title</label>
+				<input id="title" type="text" data-ng-model="project.title" placeholder="Enter title">
+				<div class="description">Please enter the title for this project.</div>
+			</div>
+		</div>
+
+		<!-- Description -->
+		<div class="marg-b20">
+			<label for="description">Description</label>
+			<textarea id="description" data-ng-model="project.description" placeholder="Enter description"></textarea>
+			<div class="description">Please enter a description for this project.</div>
+		</div>
+	</div>
+</div>
+
+<!-- Save catalogue -->
+<div class="btn-wrapper marg-t20 pad-3p">
+	<button class="button button-grey inline-block" data-ng-click="saveProject(false)">
+		<span>Save Project</span>
+	</button>
+
+	<button class="button button-grey inline-block" data-ng-click="saveProject(true)">
+		<span>Save & Close</span>
+	</button>
+</div>
+
+<div class="pad-b50"></div>

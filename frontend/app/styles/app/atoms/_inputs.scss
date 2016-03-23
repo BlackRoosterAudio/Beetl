@@ -1,0 +1,42 @@
+// INPUTS //
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+select,
+textarea {
+	-webkit-appearance: none;
+	width: 100%;
+	color: $clr-grey-darker;
+	font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+	border: 1px solid $clr-grey-mid;
+	padding: 5px 5px;
+	font-size: 90%;
+	line-height: 1em;
+	margin: 3px 0;
+	min-height: 40px;
+	resize: none;
+	transition: all .3s ease-out;
+	&:focus {
+		border-color: $clr-orange;
+	}
+}
+
+select {
+	padding: 0 5px;
+}
+
+textarea {
+	min-height: 100px;
+}
+
+label {
+	font-weight: normal;
+}
+
+.description {
+	font-weight: normal;
+	color: $clr-grey-mid;
+	line-height: 1em;
+	font-size: 80%;
+}

@@ -1,0 +1,29 @@
+// NAVIGATION //
+
+.navigation {
+	width: 100%;
+	background: $clr-black;
+	width: 100%;
+	position: relative;
+	height: 40px;
+	.inside {
+		width: 100%;
+		position: absolute;
+		opacity: 1;
+		transition: opacity 1s ease-out;
+		&.inactive {
+			opacity: 0;
+		}
+		a {
+			display: inline-block;
+			padding: 5px 20px 5px 0;
+			color: $clr-white;
+			&:first-child {
+				padding-left: 0;
+			}
+			&.active {
+				color: $clr-orange;
+			}
+		}
+	}
+}

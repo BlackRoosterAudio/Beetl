@@ -1,0 +1,18 @@
+// LIST //
+.list {
+	.inside {	
+		.list-item {
+			transition: all 0.3s;
+			display: block;
+			border-bottom: 1px solid $clr-grey-midlight;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			&:first-child {
+				border-top: 1px solid $clr-grey-midlight;
+			}
+			&:nth-child(odd) {
+				background: $clr-grey-lightest;
+			}
+		}
+	}
+}

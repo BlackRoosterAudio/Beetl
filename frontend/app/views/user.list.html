@@ -1,0 +1,35 @@
+<!-- USER LIST -->
+
+<div class="user-list list">
+	<div class="inside">
+		<div data-ng-repeat="user in users track by user._id" class="user list-item pad-3p">
+			<div class="row">
+				<a ui-sref="userDetail({ id:user._id })">
+					<span class="col-lg-7 col-md-7 col-sm-11 col-xs-10 title">
+						<div class="row">
+							<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 index">{{ ($index + 1) }}.</div>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-10">{{ user.name }}</div>
+						</div>
+					</span>
+					<span class="col-lg-4 col-md-4 hidden-sm hidden-xs updated">
+						{{ helper.dateFormat(user.timestamp) }}
+					</span>
+				</a>
+				<span class="col-lg-1 col-md-1 col-sm-1 col-xs-2 mousehand text-right red" data-ng-click="deleteUser(user._id)">
+					<i class="glyphicon glyphicon-remove"></i>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Create new user -->
+<div class="btn-wrapper marg-t20 pad-3p">
+	<div class="inside">
+		<button class="button" data-ng-click="createUser()">
+			<span>+ Create new User</span>
+		</button>
+	</div>
+</div>
+
+<div class="pad-b50"></div>

@@ -1,0 +1,10 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "app/import-utilities";
+@import "app/import-atoms";
+@import "app/import-molecules";
+@import "app/import-organisms";
+@import "app/import-templates";

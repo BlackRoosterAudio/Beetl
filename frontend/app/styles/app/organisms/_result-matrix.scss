@@ -1,0 +1,43 @@
+.result-matrix {
+	width: 100%;
+	overflow-x: auto;
+	table {
+		tr {
+			td {
+				min-width: 120px;
+				vertical-align: top;
+				background: $clr-grey-lighter;
+				border-right: 2px solid $clr-white;
+				border-bottom: 2px solid $clr-white;
+				text-align: center;
+				white-space: nowrap;
+				.inside {
+					display: block;
+					width: 100%;
+					padding: 10px 5px;
+					cursor: pointer;
+				}
+				&.accepted {
+					cursor: pointer;
+					background: #EEFFCC;
+					color: #86AF4F;
+					transition: all .3s ease-out;
+					&:hover {
+						background: #86AF4F;
+						color: $clr-white;
+					}
+				}
+				&.declined {
+					cursor: pointer;
+					background: #FFDDDD;
+					color: #EF3C0F;
+					transition: all .3s ease-out;
+					&:hover {
+						background: #EF3C0F;
+						color: $clr-white;
+					}
+				}
+			}
+		}
+	}
+}

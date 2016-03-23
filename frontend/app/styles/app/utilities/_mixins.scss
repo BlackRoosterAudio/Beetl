@@ -1,0 +1,22 @@
+// MIXINS //
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin outline($color) {
+	text-shadow:  1px  1px 1px $color,
+                  1px -1px 1px $color,
+                 -1px  1px 1px $color,
+                 -1px -1px 1px $color;
+}
+
+@mixin gradient($colA, $colB) {
+	background: -webkit-linear-gradient($colA, $colB);
+	background: -o-linear-gradient($colA, $colB);
+	background: -moz-linear-gradient($colA, $colB);
+	background: linear-gradient($colA, $colB);
+}

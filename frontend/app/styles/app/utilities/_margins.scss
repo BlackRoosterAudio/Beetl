@@ -1,0 +1,152 @@
+// MARGIN XS
+@media (min-width: 0px) and (max-width: 767px) {
+    .marg-xs-0 {
+        margin: 0;
+    }
+
+    @for $i from 0 through 10 {
+        .marg-xs-t#{$i * 5} {
+            margin-top: $i * 5px;
+        }
+    }
+
+    @for $i from 0 through 10 {
+        .marg-xs-r#{$i * 5} {
+            margin-right: $i * 5px;
+        }
+    }
+
+    @for $i from 0 through 10 {
+        .marg-xs-b#{$i * 5} {
+            margin-bottom: $i * 5px;
+        }
+    }
+
+    @for $i from 0 through 10 {
+        .marg-xs-l#{$i * 5} {
+            margin-left: $i * 5px;
+        }
+    }
+}
+
+// MARGIN SM //
+@media (min-width: 768px) and (max-width: 991px) {
+    .marg-sm-0 {
+        margin: 0;
+    }
+
+    @for $i from 0 through 10 {
+        .marg-sm-t#{$i * 5} {
+            margin-top: $i * 5px;
+        }
+    }
+
+    @for $i from 0 through 10 {
+        .marg-sm-r#{$i * 5} {
+            margin-right: $i * 5px;
+        }
+    }
+
+    @for $i from 0 through 10 {
+        .marg-sm-b#{$i * 5} {
+            margin-bottom: $i * 5px;
+        }
+    }
+
+    @for $i from 0 through 10 {
+        .marg-sm-l#{$i * 5} {
+            margin-left: $i * 5px;
+        }
+    }
+}
+
+// MARGIN MD //
+@media (min-width: 992px) and (max-width: 1190px) {
+    .marg-md-0 {
+        margin: 0;
+    }
+
+    @for $i from 0 through 10 {
+        .marg-md-t#{$i * 5} {
+            margin-top: $i * 5px;
+        }
+    }
+
+    @for $i from 0 through 10 {
+        .marg-md-r#{$i * 5} {
+            margin-right: $i * 5px;
+        }
+    }
+
+    @for $i from 0 through 10 {
+        .marg-md-b#{$i * 5} {
+            margin-bottom: $i * 5px;
+        }
+    }
+
+    @for $i from 0 through 10 {
+        .marg-md-l#{$i * 5} {
+            margin-left: $i * 5px;
+        }
+    }
+}
+
+// MARGIN LG //
+@media (min-width: 1200px) {
+    .marg-lg-0 {
+        margin: 0;
+    }
+
+    @for $i from 0 through 10 {
+        .marg-lg-t#{$i * 5} {
+            margin-top: $i * 5px;
+        }
+    }
+
+    @for $i from 0 through 10 {
+        .marg-lg-r#{$i * 5} {
+            margin-right: $i * 5px;
+        }
+    }
+
+    @for $i from 0 through 10 {
+        .marg-lg-b#{$i * 5} {
+            margin-bottom: $i * 5px;
+        }
+    }
+
+    @for $i from 0 through 10 {
+        .marg-lg-l#{$i * 5} {
+            margin-left: $i * 5px;
+        }
+    }
+}
+
+// General
+.marg-0 {
+    margin: 0;
+}
+
+@for $i from 0 through 10 {
+    .marg-t#{$i * 5} {
+        margin-top: $i * 5px;
+    }
+}
+
+@for $i from 0 through 10 {
+    .marg-r#{$i * 5} {
+        margin-right: $i * 5px;
+    }
+}
+
+@for $i from 0 through 10 {
+    .marg-b#{$i * 5} {
+        margin-bottom: $i * 5px;
+    }
+}
+
+@for $i from 0 through 10 {
+    .marg-l#{$i * 5} {
+        margin-left: $i * 5px;
+    }
+}

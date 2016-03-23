@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/angular-xeditable/dist/css/xeditable.css" />
+    <link rel="stylesheet" href="bower_components/angular-chart.js/dist/angular-chart.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="beetlApp">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="wrapper">
+      <section class="header">
+        <div class="inside">
+          <a href="#/"><img src="images/beetl.png" alt="Black Rooster Audio Beetl"></a>
+        </div>
+      </section>
+
+      <section class="navigation marg-b20">
+        <div class="inside" data-ng-class="$root.currentUser.id ? '' : 'inactive'">
+          <a ui-sref="catalogueList" ui-sref-active="active">Catalogues</a>
+          <a data-ng-if="$root.currentUser.isAdmin" ui-sref="resultList" ui-sref-active="active">Results</a>
+          <a data-ng-if="$root.currentUser.isAdmin" ui-sref="projectList" ui-sref-active="active">Projects</a>
+          <a data-ng-if="$root.currentUser.isAdmin" ui-sref="userList" ui-sref-active="active">Users</a>
+          <!--<a ui-sref="settings" ui-sref-active="active" class="border-right-white">Settings</a>-->
+          <a ui-sref="profile" ui-sref-active="active">Profile</a>
+          <div class="clearfix"></div>
+        </div>
+      </section>
+
+      <section class="main">
+        <div class="inside">
+          <div ui-view class="slide"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- TODO: Add Piwik -->
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-xeditable/dist/js/xeditable.js"></script>
+    <script src="bower_components/Chart.js/Chart.js"></script>
+    <script src="bower_components/angular-chart.js/dist/angular-chart.js"></script>
+    <script src="bower_components/angular-strap/dist/angular-strap.js"></script>
+    <script src="bower_components/angular-strap/dist/angular-strap.tpl.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/login.js"></script>
+    <script src="scripts/controllers/registration.js"></script>
+    <script src="scripts/controllers/settings.js"></script>
+    <script src="scripts/controllers/profile.js"></script>
+    <script src="scripts/controllers/catalogue.list.js"></script>
+    <script src="scripts/controllers/catalogue.detail.js"></script>
+    <script src="scripts/controllers/result.list.js"></script>
+    <script src="scripts/controllers/result.overview.js"></script>
+    <script src="scripts/controllers/result.detail.js"></script>
+    <script src="scripts/controllers/user.list.js"></script>
+    <script src="scripts/controllers/user.detail.js"></script>
+    <script src="scripts/controllers/project.list.js"></script>
+    <script src="scripts/controllers/project.detail.js"></script>
+    <script src="scripts/controllers/error.js"></script>
+    <script src="scripts/services/apihandler.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

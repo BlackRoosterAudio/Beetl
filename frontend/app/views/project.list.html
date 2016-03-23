@@ -1,0 +1,35 @@
+<!-- PROJECT LIST -->
+
+<div class="project-list list overview">
+	<div class="inside">
+		<div data-ng-repeat="project in projects" data-ng-if="project.title" class="project list-item pad-3p">
+			<div class="row">
+				<a ui-sref="projectDetail({ id:project._id })">
+					<span class="col-lg-7 col-md-7 col-sm-11 col-xs-10 title">
+						<div class="row">
+							<div class="col-lg-1 col-md-1 col-sm-1 col-xs-2 index">{{ ($index + 1) }}.</div>
+							<div class="col-lg-11 col-md-11 col-sm-11 col-xs-10">{{ project.title }}</div>
+						</div>
+					</span>
+					<span class="col-lg-4 col-md-4 hidden-sm hidden-xs updated">
+						{{ helper.dateFormat(project.timestamp) }}
+					</span>
+				</a>
+				<span class="col-lg-1 col-md-1 col-sm-1 col-xs-2 mousehand text-right red" data-ng-click="deleteProject(project._id)">
+					<i class="glyphicon glyphicon-remove"></i>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Create new project -->
+<div class="btn-wrapper marg-t20 pad-3p">
+	<div class="inside">
+		<button class="button" data-ng-click="createProject()">
+			<span>+ Create new Project</span>
+		</button>
+	</div>
+</div>
+
+<div class="pad-b50"></div>

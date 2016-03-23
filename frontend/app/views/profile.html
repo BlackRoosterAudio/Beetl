@@ -1,0 +1,88 @@
+<!-- USER DETAIL -->
+
+<div class="profile pad-3p">
+	<div class="inside">
+		<div class="row">
+			<!-- Name -->
+			<div class="col-lg-6 marg-b20">
+				<label for="name">Name</label>
+				<input id="name" type="text" data-ng-model="profile.name" placeholder="Enter name">
+				<div class="description">Please enter the name of this profile.</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<!-- Profilename -->
+			<div class="col-lg-6 marg-b20">
+				<label for="username">Username</label>
+				<input id="username" type="text" data-ng-model="profile.username" placeholder="Enter username">
+				<div class="description">Please enter the username of this profile.</div>
+			</div>
+			<!-- Password -->
+			<div class="col-lg-6 marg-b20">
+				<label for="password">Password</label>
+				<input id="password" type="password" data-ng-model="profile.password" placeholder="Enter password">
+				<div class="description">Please enter the password of this profile.</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<!-- OS -->
+			<div class="col-lg-6 marg-b20">
+				<label for="osselect">Operating System</label>
+				<select id="osselect" data-ng-model="profile.osselect">
+					<option>Windows XP x86</option>
+					<option>Windows XP x64</option>
+					<option>Windows Vista x86</option>
+					<option>Windows Vista x64</option>
+					<option>Windows 7 x86</option>
+					<option>Windows 7 x64</option>
+					<option>Windows 8 x86</option>
+					<option>Windows 8 x64</option>
+					<option>Windows 8.1 x86</option>
+					<option>Windows 8.1 x64</option>
+					<option>Mac OS X 10.6 Snow Leopard</option>
+					<option>Mac OS X 10.7 Lion</option>
+					<option>Mac OS X 10.8 Mountain Lion</option>
+					<option>Mac OS X 10.9 Mavericks</option>
+					<option>Mac OS X 10.10 Yosemite</option>
+					<option>Mac OS X 10.11 El Capitan</option>
+					<option>Linux/Unix Distribution</option>
+				</select>
+				<div class="description">Choose operating system.</div>
+			</div>
+			<!-- OS Further Info -->
+			<div class="col-lg-6 marg-b20">
+				<label for="osinfo">OS Info</label>
+				<input id="osinfo" type="text" data-ng-model="profile.osinfo" placeholder="e.g. Build No., Distribution">
+				<div class="description">Please futher info regarding your operating system.</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<!-- Host System -->
+			<div class="col-lg-6 marg-b20">
+				<label for="host">Host System</label>
+				<input id="host" type="text" data-ng-model="profile.host" placeholder="e.g. Steinberg Cubase 8">
+				<div class="description">Please enter the host system and version.</div>
+			</div>
+			<!-- Soundcard -->
+			<div class="col-lg-6 marg-b20">
+				<label for="soundcard">Sound Card / External DSP</label>
+				<input id="soundcard" type="text" data-ng-model="profile.soundcard" placeholder="e.g. RME Fireface UCX">
+				<div class="description">Please provide info on your soundcard setup.</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Save catalogue -->
+<div class="btn-wrapper marg-t20 pad-3p">
+	<div class="inside">
+		<button class="button button-grey inline-block" data-ng-click="saveProfile()">
+			<span>Save Profile</span>
+		</button>
+	</div>
+</div>
+
+<div class="pad-b50"></div>

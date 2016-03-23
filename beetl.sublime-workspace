@@ -1,0 +1,1889 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"res",
+				"results"
+			],
+			[
+				"obj",
+				"objMatrix"
+			],
+			[
+				"result",
+				"resultList"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"catal",
+				"catalogueId"
+			],
+			[
+				"current",
+				"currentUser"
+			],
+			[
+				"catalogue",
+				"catalogue"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"c",
+				"currentUser"
+			],
+			[
+				"bearer",
+				"bearertstamp"
+			],
+			[
+				"model",
+				"modelUser"
+			],
+			[
+				"salte",
+				"saltedPassword"
+			],
+			[
+				"pr",
+				"project"
+			],
+			[
+				"new",
+				"newUser"
+			],
+			[
+				"str",
+				"strRedirect"
+			],
+			[
+				"is",
+				"is_array"
+			],
+			[
+				"orig",
+				"originalCart"
+			],
+			[
+				"proce",
+				"processedTotal"
+			],
+			[
+				"proces",
+				"processedState"
+			],
+			[
+				"order",
+				"orderSum"
+			],
+			[
+				"sh",
+				"shoppingCart"
+			],
+			[
+				"cred",
+				"credObj"
+			],
+			[
+				"init",
+				"initOverlay"
+			],
+			[
+				"dele",
+				"deleteEmptyOnStartup"
+			],
+			[
+				"arr",
+				"arrDevices"
+			],
+			[
+				"stat",
+				"statusMessage"
+			],
+			[
+				"hsit",
+				"historySupported"
+			],
+			[
+				"histor",
+				"historyIndex"
+			],
+			[
+				"redire",
+				"redirectUrl"
+			],
+			[
+				"cu",
+				"currentPage"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"en",
+				"endpointUrl"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"produc",
+				"productDetailView"
+			],
+			[
+				"second",
+				"second-level-wrapper"
+			],
+			[
+				"overflow",
+				"overflow-y"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"artic",
+				"articleIndex"
+			],
+			[
+				"parse",
+				"parseJSON"
+			],
+			[
+				"image",
+				"imageData"
+			],
+			[
+				"action",
+				"actionSwitch"
+			],
+			[
+				"disabl",
+				"disableCartElem"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"flying",
+				"flyingElements"
+			],
+			[
+				"fly",
+				"flyingElements"
+			],
+			[
+				"_tmp",
+				"_tmpJoiner"
+			],
+			[
+				"produ",
+				"productDetail"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"scroll",
+				"scrollLock"
+			],
+			[
+				"scrollLock",
+				"scrollLockSimple"
+			],
+			[
+				"sc",
+				"scrollPos"
+			],
+			[
+				"html",
+				"htmlBody"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "frontend/app/scripts/controllers/result.list.js",
+			"settings":
+			{
+				"buffer_size": 1137,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/app/scripts/services/apihandler.js",
+			"settings":
+			{
+				"buffer_size": 3051,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/app/views/user.list.html",
+			"settings":
+			{
+				"buffer_size": 891,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/app/scripts/controllers/user.list.js",
+			"settings":
+			{
+				"buffer_size": 1255,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/app/scripts/controllers/settings.js",
+			"settings":
+			{
+				"buffer_size": 312,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/app/scripts/controllers/registration.js",
+			"settings":
+			{
+				"buffer_size": 626,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/app/scripts/controllers/project.list.js",
+			"settings":
+			{
+				"buffer_size": 1308,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/app/scripts/controllers/result.detail.js",
+			"settings":
+			{
+				"buffer_size": 4842,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/app/scripts/controllers/catalogue.detail.js",
+			"settings":
+			{
+				"buffer_size": 3135,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/app/scripts/controllers/catalogue.list.js",
+			"settings":
+			{
+				"buffer_size": 1659,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "frontend/app/scripts/controllers/contact.js",
+			"settings":
+			{
+				"buffer_size": 309,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/app/scripts/controllers/login.js",
+			"settings":
+			{
+				"buffer_size": 996,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "frontend/app/scripts/controllers/profile.js",
+			"settings":
+			{
+				"buffer_size": 309,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 242.0,
+		"last_filter": "web",
+		"selected_items":
+		[
+			[
+				"web",
+				"View: Toggle Side Bar"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"index",
+				"WhoCalled: Run indexer"
+			],
+			[
+				"doc",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"packaga",
+				"Package Control: Remove Package"
+			],
+			[
+				"git",
+				"Git: Toggle Annotations"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"Sass",
+				"SassBeautify"
+			],
+			[
+				"Pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 246.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"SublimeLinter",
+			"lint",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Repos/beetl",
+		"/D/Repos/beetl/frontend",
+		"/D/Repos/beetl/frontend/app",
+		"/D/Repos/beetl/frontend/app/styles",
+		"/D/Repos/beetl/frontend/app/styles/app",
+		"/D/Repos/beetl/frontend/app/styles/app/organisms",
+		"/D/Repos/beetl/frontend/bower_components"
+	],
+	"file_history":
+	[
+		"/D/Repos/beetl/frontend/app/scripts/controllers/catalogue.detail.js",
+		"/D/Repos/beetl/frontend/app/views/catalogue.detail.html",
+		"/D/Repos/beetl/backend/app/models/result.js",
+		"/D/Repos/beetl/backend/app/models/catalogue.js",
+		"/D/Repos/beetl/frontend/app/views/catalogue.list.html",
+		"/C/Program Files (x86)/DOSBox-0.63/dosbox.conf",
+		"/D/Repos/beetl/frontend/app/styles/app/organisms/_result-matrix.scss",
+		"/D/Repos/beetl/frontend/app/scripts/app.js",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/catalogue.list.js",
+		"/D/Spiele/dimecity/DIME.VMC",
+		"/D/Spiele/dimecity/JVSOUND.CFG",
+		"/D/Spiele/dimecity/CYBERLIB.CFG",
+		"/D/Spiele/dimecity/CDSOUND.CFG",
+		"/D/Spiele/dimecity/DIME",
+		"/D/Spiele/dimecity/DIME.CDE",
+		"/D/Spiele/dimecity/DIME.CFG",
+		"/D/Spiele/dimecity/run.bat",
+		"/D/Spiele/dimecity/OUT",
+		"/C/Users/Eddy/Desktop/dosbox.conf",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/result.detail.js",
+		"/D/Repos/beetl/frontend/app/views/result.detail.html",
+		"/D/Repos/beetl/frontend/app/styles/app/utilities/_variables.scss",
+		"/D/Repos/beetl/backend/app/models/user.js",
+		"/D/Repos/beetl/frontend/app/styles/app/organisms/_catalogue-detail.scss",
+		"/D/Repos/beetl/frontend/app/styles/app/_import-organisms.scss",
+		"/D/Repos/beetl/frontend/bower.json",
+		"/D/Repos/beetl/frontend/app/index.html",
+		"/D/Repos/beetl/frontend/app/scripts/services/apihandler.js",
+		"/D/Repos/beetl/frontend/app/views/user.detail.html",
+		"/D/Repos/beetl/backend/server.js",
+		"/D/Repos/beetl/frontend/app/views/result.list.html",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/result.list.js",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/project.detail.js",
+		"/D/Repos/beetl/frontend/app/styles/app/utilities/_basics.scss",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/login.js",
+		"/D/Repos/beetl/frontend/app/views/login.html",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/error.js",
+		"/D/Repos/beetl/frontend/node_modules/grunt-google-cdn/node_modules/bower/node_modules/github/api/v3.0.0/events.js",
+		"/D/Repos/beetl/backend/app/config/config.js",
+		"/D/Repos/beetl/backend/app/vendor/crypto.sha1.js",
+		"/D/Repos/beetl/backend/app/vendor",
+		"/D/Repos/beetl/frontend/app/views/user.list.html",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/user.detail.js",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/user.list.js",
+		"/D/Repos/beetl/frontend/app/views/project.detail.html",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/project.list.js",
+		"/D/Repos/beetl/backend/app/models/project.js",
+		"/D/Repos/beetl/frontend/app/styles/app/_import-templates.scss",
+		"/D/Repos/beetl/frontend/app/styles/app/templates/_layout.scss",
+		"/D/Repos/beetl/frontend/app/styles/app/molecules/_list.scss",
+		"/C/Users/Eddy/Desktop/REPOS/vipyDesignPOC/gulpfile.js",
+		"/C/Users/Eddy/Desktop/REPOS/vipyDesignPOC/src/index.js",
+		"/C/Users/Eddy/Desktop/REPOS/vipyDesignPOC/src/vipy-design-poc.js",
+		"/D/Repos/beetl/frontend/app/styles/app/atoms/_buttons.scss",
+		"/D/Repos/beetl/frontend/app/styles/app/templates/_basic.scss",
+		"/D/Repos/beetl/frontend/app/views/project.list.html",
+		"/D/Repos/beetl/frontend/app/styles/app/organisms/_overview.scss",
+		"/D/Repos/beetl/frontend/app/styles/app/organisms/_catalogue.scss",
+		"/D/Repos/beetl/frontend/app/styles/app/atoms/_inputs.scss",
+		"/D/Repos/beetl/frontend/app/styles/app/_import-molecules.scss",
+		"/D/Repos/beetl/frontend/app/styles/app/molecules/_xeditable.scss",
+		"/D/Repos/beetl/frontend/app/styles/app/organisms/_navigation.scss",
+		"/D/Repos/beetl/frontend/app/styles/app/utilities/_mixins.scss",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/result.overview.js",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/user.overview.js",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/catalogue.overview.js",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/registration.js",
+		"/D/Repos/beetl/frontend/app/views/registration.html",
+		"/D/Repos/beetl/frontend/app/styles/app/atoms/_boxes.scss",
+		"/D/Repos/beetl/frontend/app/styles/app/_import-atoms.scss",
+		"/D/Repos/beetl/frontend/app/views/error.html",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/catalogues.detail.js",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/catalogues.overview.js",
+		"/D/Repos/beetl/frontend/app/views/catalogues.detail.html",
+		"/C/Users/Eddy/Desktop/REPOS/Walbusch/frontend/src/htdocs/views/curated.html",
+		"/D/Repos/beetl/frontend/app/views/catalogues.overview.html",
+		"/D/Repos/beetl/backend/app/models/projects.js",
+		"/D/Repos/beetl/backend/app/models/catalogues.js",
+		"/D/Repos/beetl/backend/app/models/results.js",
+		"/D/Repos/beetl/backend/app/models/users.js",
+		"/D/Repos/beetl/frontend/app/styles/app/_import-utilities.scss",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/results.detail.js",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/contact.js",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/profile.js",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/results.overview.js",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/settings.js",
+		"/D/Repos/beetl/frontend/app/styles/app/organisms/_header.scss",
+		"/D/Repos/beetl/frontend/app/styles/app/atoms/_links.scss",
+		"/D/Repos/beetl/frontend/node_modules/grunt-google-cdn/node_modules/google-cdn/node_modules/cdnjs-cdn-data/external/cdnjs.json",
+		"/D/Repos/beetl/frontend/app/views/contact.html",
+		"/D/Repos/beetl/frontend/app/views/settings.html",
+		"/D/Repos/beetl/frontend/app/views/profile.html",
+		"/D/Repos/beetl/frontend/app/views/results.overview.html",
+		"/D/Repos/beetl/frontend/app/views/results.detail.html",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/idea.overview.js",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/idea.editor.js",
+		"/D/Repos/beetl/frontend/app/scripts/controllers/main.js",
+		"/D/Repos/beetl/frontend/Gruntfile.js",
+		"/D/Repos/beetl/frontend/dist/index.html",
+		"/D/Repos/beetl/frontend/test/spec/controllers/main.js",
+		"/D/Repos/beetl/backend/app/models/core.js",
+		"/D/Repos/beetl/backend/package.json",
+		"/D/Repos/beetl/frontend/.gitignore",
+		"/D/Repos/beetl/frontend/README.md",
+		"/D/Repos/beetl/frontend/package.json",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAShop/modules/ModuleBRAShopPaypalReceiver.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAShop/classes/BRAShop.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAServices/modules/ModuleBRALicenserService.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/core/library/Contao/Database/Updater.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAShop/classes/BRAShopCart.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAServices/classes/BRAClassCore.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAServices/classes/BRAService.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/config/localconfig.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAShop/classes/BRAShopPaypal.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAShop/config/config.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAShop/languages/de/modules.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/core/dca/tl_settings.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAShop/dca/tl_member.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAShop/dca/tl_br_payment.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAShop/languages/de/tl_br_payment.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAServices/config/config.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAServices/languages/de/modules.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAShop/dca/tl_br_orderbook.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAShop/dca/tl_module.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAServices/config/autoload.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAServices/dca/tl_member.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRAServices/modules/ModuleBRASerialGenerator.php",
+		"/C/Users/Eddy/Desktop/REPOS/BRAWebsite/system/modules/zBRA/classes/BRAClassHooks.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 176.0,
+		"where_history":
+		[
+			"*.scss",
+			"*.html",
+			"*.scss",
+			"*.*",
+			"*.php, *.html5",
+			"*.php",
+			"*.scss",
+			"*.php",
+			"*.html5",
+			"*.php",
+			"*.scss",
+			"*.*",
+			"config.php",
+			"*.php",
+			"*.scss",
+			"*.js",
+			"*.html5",
+			"*.scss",
+			"*.*",
+			"",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.*",
+			"*.js",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.js",
+			"*.*",
+			"*.js",
+			"*.phtml",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.phtml",
+			"*.scss",
+			"*.phtml",
+			"*.scss",
+			"*.phtml",
+			"*.scss",
+			"*.*",
+			"*.phtml",
+			"*.scss",
+			"*.phtml",
+			"*.scss",
+			"*.phtml",
+			"*.´phtml",
+			"*.*",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.*",
+			"*.scss",
+			"*.*",
+			"*.scss",
+			"*.js",
+			"*.phtml",
+			"*.scss",
+			"*.js",
+			"*.*",
+			"*.phtml",
+			"*.js",
+			"*.*",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.*",
+			"*.scss",
+			"*.*",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.phtml",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.*",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.*",
+			"*.scss",
+			"*.*",
+			"*.scss",
+			"*.*",
+			"*.scss",
+			"*.*",
+			"*.scss",
+			"\\*.scss",
+			"/*.scss",
+			"/htdocs/*.scss",
+			"C:\\Users\\Eddy\\Desktop\\REPOS\\Walbusch_FeatureBranch\\frontend-templates\\src\\htdocs"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"console",
+			"complete",
+			"declined",
+			"ng-repeat",
+			"countFinished",
+			"catalogue",
+			"red",
+			"throw",
+			"console",
+			"});",
+			"authenticated()",
+			"router",
+			"console",
+			"project",
+			"Project",
+			"project",
+			"Catalogue",
+			"catalogue",
+			"Catalogue",
+			"console",
+			"Catalogue",
+			"catalogue",
+			"user",
+			"form-control",
+			"color",
+			"red",
+			"catalogues-overview",
+			"Catalogue",
+			"catalogue",
+			"json",
+			"dataFactory",
+			"-blue-",
+			"Catalogues",
+			"IdeaEditor",
+			"ideya",
+			"getUser",
+			"objUser",
+			"new",
+			"import('Data",
+			"findByUsername",
+			"licType",
+			"clientId",
+			"tl_settings']['edit",
+			"Die lokale Konfigur",
+			"badRequestError",
+			"licenseCreateError",
+			"tl_br_errormessages",
+			"BRAShop",
+			"zBRA",
+			"ja leck",
+			"BRClassBase32",
+			"BRClassCore",
+			"BRClassCrypt",
+			"BRClassHooks",
+			"BRClassSerialGen",
+			"BRClassSigner",
+			"BRPrivateDSSKey",
+			"BRProductKey",
+			"jumpTo",
+			"generateFrontendUrl",
+			"jumpTo",
+			"redirect",
+			"jumpTo",
+			"calculateSum",
+			"paypal",
+			"token",
+			"id",
+			"prepareCart",
+			"pdf",
+			"FE_",
+			"TL_ROOT",
+			");\n",
+			"ModuleBRAShopPaypal",
+			"float",
+			"INSERT INTO",
+			"getUser",
+			"Environment",
+			"modOverlayCart",
+			".custom",
+			".mod_bra_shop_checkout",
+			"User",
+			"addProduct",
+			"action=\"",
+			"system/modules",
+			"collaps",
+			"collapsed-5l",
+			"ajax-loader.gif",
+			"hundeshop",
+			"style",
+			"protectFolder",
+			"input_field_call",
+			"formatLabel",
+			"tl_news",
+			"?>",
+			"Eddy",
+			"arsch",
+			"setCredentialObject",
+			"ResultPrinter::printResult",
+			"white",
+			"marg",
+			"095b71",
+			"underline",
+			"FE_USER",
+			"50px",
+			"border-radius",
+			"ready to go",
+			"mod_bra_shop_checkout",
+			"modOverlay",
+			"custom",
+			"accordion",
+			"border-ra",
+			"z-index",
+			"./common",
+			"Toggler 1",
+			"js-list-collar-size",
+			"$this->Input->get('act') == 'edit' || ",
+			"addIcon",
+			"checkPermission",
+			"toggleIcon",
+			"feature",
+			"iconFeatured",
+			"pagePicker",
+			"scheduleUpdate",
+			"generateFeed",
+			"adjustTime",
+			"getArticleAlias",
+			"listNewsArticles",
+			"generateAlias"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"countCompleted",
+			"result",
+			"authenticated(req)",
+			"user",
+			"User",
+			"user",
+			"User",
+			"user",
+			"User",
+			"Project",
+			"project",
+			"step",
+			"catalogue-list",
+			"Project",
+			"project",
+			"apiHandler",
+			"-grey-",
+			"Contact",
+			"ResultsDetail",
+			"Results",
+			"Settings",
+			"Profile",
+			"CataloguesDetail",
+			"Login",
+			"Catalogues",
+			"beetl",
+			"paypalClientSecret",
+			"paypalClientId",
+			"tl_br_payment",
+			"zBRAServices",
+			"BRAProductKey",
+			"modOverlay",
+			"identifier",
+			"tl_br_orderbook",
+			"print_r",
+			"302111",
+			"modOverlayCart",
+			"",
+			"createIdentifiers",
+			"HistoryIndex",
+			"scope.loadHistoryPath",
+			"scope.saveHistoryPath",
+			"historyPath",
+			"",
+			"errorUpdateGlobal",
+			"fieldCallback",
+			"updateValidationErrors",
+			"showValidationErrors",
+			"toggleErrorMessages",
+			"calculateForkMap",
+			"provideForkMap",
+			",\\n.",
+			"C:/Users/Eddy/Desktop/REPOS/Walbusch/hybris/",
+			"App.helper.base64.",
+			"App.helper.base64",
+			"lvw-delete-element",
+			"lvw-delete-all",
+			"js-delete-all",
+			"js-delete-element"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "frontend/app/scripts/controllers/result.list.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1128,
+								1128
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "frontend/app/scripts/services/apihandler.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3051,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								574,
+								574
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "frontend/app/views/user.list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 891,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "frontend/app/scripts/controllers/user.list.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								698,
+								698
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "frontend/app/scripts/controllers/settings.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								307
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "frontend/app/scripts/controllers/registration.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "frontend/app/scripts/controllers/project.list.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								663,
+								663
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "frontend/app/scripts/controllers/result.detail.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1023,
+								1023
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "frontend/app/scripts/controllers/catalogue.detail.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "frontend/app/scripts/controllers/catalogue.list.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								996,
+								996
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "frontend/app/scripts/controllers/contact.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "frontend/app/scripts/controllers/login.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								584,
+								584
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "frontend/app/scripts/controllers/profile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "beetl.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"result.detail",
+				"frontend\\app\\scripts\\controllers\\result.detail.js"
+			],
+			[
+				"project.li",
+				"frontend\\app\\scripts\\controllers\\project.list.js"
+			],
+			[
+				"profile",
+				"frontend\\app\\scripts\\controllers\\profile.js"
+			],
+			[
+				"login",
+				"frontend\\app\\scripts\\controllers\\login.js"
+			],
+			[
+				"conta",
+				"frontend\\app\\scripts\\controllers\\contact.js"
+			],
+			[
+				"catalogue.lis",
+				"frontend\\app\\scripts\\controllers\\catalogue.list.js"
+			],
+			[
+				"catal",
+				"frontend\\app\\scripts\\controllers\\catalogue.detail.js"
+			],
+			[
+				"project",
+				"frontend\\app\\scripts\\controllers\\project.list.js"
+			],
+			[
+				"regist",
+				"frontend\\app\\scripts\\controllers\\registration.js"
+			],
+			[
+				"setting",
+				"frontend\\app\\scripts\\controllers\\settings.js"
+			],
+			[
+				"user.lis",
+				"frontend\\app\\scripts\\controllers\\user.list.js"
+			],
+			[
+				"apihandler",
+				"frontend\\app\\scripts\\services\\apihandler.js"
+			],
+			[
+				"result.list",
+				"frontend\\app\\scripts\\controllers\\result.list.js"
+			],
+			[
+				"result",
+				"backend\\app\\models\\result.js"
+			],
+			[
+				"catalogue.detai",
+				"frontend\\app\\scripts\\controllers\\catalogue.detail.js"
+			],
+			[
+				"catalogue.detail",
+				"frontend\\app\\views\\catalogue.detail.html"
+			],
+			[
+				"catalogue",
+				"backend\\app\\models\\catalogue.js"
+			],
+			[
+				"matri",
+				"frontend\\app\\styles\\app\\organisms\\_result-matrix.scss"
+			],
+			[
+				"app",
+				"frontend\\app\\scripts\\app.js"
+			],
+			[
+				"catalog",
+				"frontend\\app\\views\\catalogue.list.html"
+			],
+			[
+				"variabl",
+				"frontend\\app\\styles\\app\\utilities\\_variables.scss"
+			],
+			[
+				"user",
+				"backend\\app\\models\\user.js"
+			],
+			[
+				"resu",
+				"backend\\app\\models\\result.js"
+			],
+			[
+				"api",
+				"frontend\\app\\scripts\\services\\apihandler.js"
+			],
+			[
+				"inde",
+				"frontend\\app\\index.html"
+			],
+			[
+				"index",
+				"frontend\\app\\index.html"
+			],
+			[
+				"detail.html",
+				"frontend\\app\\views\\catalogue.detail.html"
+			],
+			[
+				"result.deta",
+				"frontend\\app\\views\\result.detail.html"
+			],
+			[
+				"server",
+				"backend\\server.js"
+			],
+			[
+				"resul",
+				"frontend\\app\\views\\result.list.html"
+			],
+			[
+				"catalogue.det",
+				"frontend\\app\\scripts\\controllers\\catalogue.detail.js"
+			],
+			[
+				"user.js",
+				"backend\\app\\models\\user.js"
+			],
+			[
+				"user.de",
+				"frontend\\app\\views\\user.detail.html"
+			],
+			[
+				"cata",
+				"frontend\\app\\scripts\\controllers\\catalogue.list.js"
+			],
+			[
+				"events.js",
+				"frontend\\node_modules\\grunt-google-cdn\\node_modules\\bower\\node_modules\\github\\api\\v3.0.0\\events.js"
+			],
+			[
+				"config",
+				"backend\\app\\config\\config.js"
+			],
+			[
+				"apih",
+				"frontend\\app\\scripts\\services\\apihandler.js"
+			],
+			[
+				"proje",
+				"backend\\app\\models\\project.js"
+			],
+			[
+				"us",
+				"backend\\app\\models\\user.js"
+			],
+			[
+				"projec",
+				"backend\\app\\models\\project.js"
+			],
+			[
+				"vriabl",
+				"frontend\\app\\styles\\app\\utilities\\_variables.scss"
+			],
+			[
+				"_list",
+				"frontend\\app\\styles\\app\\molecules\\_list.scss"
+			],
+			[
+				"basics",
+				"frontend\\app\\styles\\app\\utilities\\_basics.scss"
+			],
+			[
+				"pro",
+				"frontend\\app\\scripts\\controllers\\project.list.js"
+			],
+			[
+				"project.lis",
+				"frontend\\app\\scripts\\controllers\\project.list.js"
+			],
+			[
+				"catalogue.js",
+				"backend\\app\\models\\catalogue.js"
+			],
+			[
+				"app.js",
+				"frontend\\app\\scripts\\app.js"
+			],
+			[
+				"server.js",
+				"backend\\server.js"
+			],
+			[
+				"apihan",
+				"frontend\\app\\scripts\\services\\apihandler.js"
+			],
+			[
+				"inpu",
+				"frontend\\app\\styles\\app\\atoms\\_inputs.scss"
+			],
+			[
+				"serv",
+				"backend\\server.js"
+			],
+			[
+				"varia",
+				"frontend\\app\\styles\\app\\utilities\\_variables.scss"
+			],
+			[
+				"naviga",
+				"frontend\\app\\styles\\app\\organisms\\_navigation.scss"
+			],
+			[
+				"catalogue.l",
+				"frontend\\app\\views\\catalogue.list.html"
+			],
+			[
+				"confi",
+				"backend\\app\\config\\config.js"
+			],
+			[
+				"overv",
+				"frontend\\app\\scripts\\controllers\\catalogues.overview.js"
+			],
+			[
+				"variable",
+				"frontend\\app\\styles\\app\\utilities\\_variables.scss"
+			],
+			[
+				"localconfi",
+				"system\\config\\localconfig.php"
+			],
+			[
+				"classcore",
+				"system\\modules\\zBRA\\classes\\BRAClassCore.php"
+			],
+			[
+				"receiver",
+				"system\\modules\\BRAShop\\modules\\ModuleBRAShopPaypalReceiver.php"
+			],
+			[
+				"variables",
+				"files\\theme\\assets\\sass\\utilities\\_variables.scss"
+			],
+			[
+				"brclasscore",
+				"system\\modules\\zBRA\\classes\\BRClassCore.php"
+			],
+			[
+				"_artic",
+				"files\\theme\\assets\\sass\\col-ti\\molecules\\_article.scss"
+			],
+			[
+				"_articl",
+				"files\\theme\\assets\\sass\\col-md\\molecules\\_article.scss"
+			],
+			[
+				"mod_arti",
+				"templates\\mod_article.html5"
+			],
+			[
+				"_article",
+				"files\\theme\\assets\\sass\\col-lg\\molecules\\_article.scss"
+			],
+			[
+				"curated.scs",
+				"htdocs\\scss\\common\\src\\desktop\\organisms\\curated\\_curated.scss"
+			],
+			[
+				"curate",
+				"htdocs\\scripts\\curated\\curated.json"
+			],
+			[
+				"requi",
+				"htdocs\\grunt\\tasks\\requirejs.js"
+			],
+			[
+				"body",
+				"htdocs\\scripts\\layout\\layout-body.phtml"
+			],
+			[
+				"naviagtion",
+				"htdocs\\_ui\\js\\app\\modules\\navigation-trail.js"
+			],
+			[
+				"navigation",
+				"htdocs\\_ui\\js\\app\\modules\\navigation.js"
+			],
+			[
+				"curated.json",
+				"htdocs\\scripts\\curated\\curated.json"
+			],
+			[
+				"curated.ht",
+				"htdocs\\views\\curated.html"
+			],
+			[
+				"_curate",
+				"htdocs\\scss\\common\\src\\desktop\\organisms\\curated\\_curated.scss"
+			],
+			[
+				"main",
+				"htdocs\\_ui\\js\\app\\main.js"
+			],
+			[
+				"curated",
+				"htdocs\\_ui\\js\\app\\controller\\curated.js"
+			],
+			[
+				"navgi",
+				"htdocs\\_ui\\js\\app\\modules\\navigation.js"
+			],
+			[
+				"last-viewe",
+				"htdocs\\_ui\\js\\app\\modules\\last-viewed-widget.js"
+			],
+			[
+				"main-nav",
+				"htdocs\\scss\\common\\src\\0_767\\organisms\\header\\_main-nav.scss"
+			],
+			[
+				"layou",
+				"htdocs\\scripts\\layout\\layout-body.phtml"
+			],
+			[
+				"sub-nav",
+				"htdocs\\scripts\\okk\\sub-nav.phtml"
+			],
+			[
+				"main.js",
+				"htdocs\\_ui\\js\\app\\main.js"
+			],
+			[
+				"layout",
+				"htdocs\\scripts\\layout\\layout-body.phtml"
+			],
+			[
+				"type-d",
+				"htdocs\\scss\\common\\src\\desktop\\organisms\\productDetail\\_product-detail-type-d.scss"
+			],
+			[
+				"navig",
+				"htdocs\\_ui\\js\\app\\modules\\navigation.js"
+			],
+			[
+				"check-bic-response",
+				"htdocs\\scripts\\checkout\\check-bic-response.json"
+			],
+			[
+				"check-bic-response.php",
+				"htdocs\\scripts\\checkout\\check-bic-response.php"
+			],
+			[
+				"form",
+				"htdocs\\_ui\\js\\app\\modules\\form-validation.js"
+			],
+			[
+				"product-detail-type-d-article-changeable-choice-objects",
+				"htdocs\\scripts\\produktdetailseite\\elements-desktop\\product-detail-type-d-article-changeable-choice-objects.phtml"
+			],
+			[
+				"product-detail-type-d-article.phtml",
+				"htdocs\\scripts\\produktdetailseite\\elements-desktop\\product-detail-type-d-article.phtml"
+			],
+			[
+				"new-lay",
+				"htdocs\\scripts\\neukundenseiten\\2f1-4t-newlayout.phtml"
+			],
+			[
+				"main-na",
+				"htdocs\\scripts\\partials\\header-main-nav.phtml"
+			],
+			[
+				"_cura",
+				"htdocs\\scss\\common\\src\\desktop\\organisms\\curated\\_curated.scss"
+			],
+			[
+				"cura",
+				"htdocs\\_ui\\js\\app\\controller\\curated.js"
+			],
+			[
+				"variab",
+				"htdocs\\scss\\common\\config\\_variables.scss"
+			],
+			[
+				"margin",
+				"htdocs\\scss\\common\\src\\desktop\\atoms\\margins\\_margins.scss"
+			],
+			[
+				"require",
+				"htdocs\\grunt\\tasks\\requirejs.js"
+			],
+			[
+				"new",
+				"htdocs\\scripts\\neukundenseiten\\2f1-4t-newlayout.phtml"
+			],
+			[
+				"produ",
+				"htdocs\\_ui\\js\\app\\modules\\product-detail.js"
+			],
+			[
+				"nav.scss",
+				"htdocs\\scss\\common\\src\\0_767\\organisms\\header\\_main-nav.scss"
+			],
+			[
+				"top",
+				"htdocs\\scripts\\partials\\header-top-area.phtml"
+			],
+			[
+				"product-detail",
+				"htdocs\\_ui\\js\\app\\modules\\product-detail.js"
+			],
+			[
+				"new-customer-add-info-2015.phtml",
+				"htdocs\\scripts\\neukundenseiten\\elements-desktop\\new-customer-add-info-2015.phtml"
+			],
+			[
+				"newla",
+				"htdocs\\scripts\\neukundenseiten\\2f1-4t-newlayout.phtml"
+			],
+			[
+				"produc",
+				"htdocs\\_ui\\js\\app\\modules\\product-detail.js"
+			],
+			[
+				"navigatio",
+				"htdocs\\_ui\\js\\app\\modules\\navigation.js"
+			],
+			[
+				"header-main-nav",
+				"htdocs\\scripts\\partials\\header-main-nav.phtml"
+			],
+			[
+				"header-top",
+				"htdocs\\scripts\\partials\\header-top-area.phtml"
+			],
+			[
+				"nav",
+				"htdocs\\scripts\\partials\\header-main-nav.phtml"
+			],
+			[
+				"product-detail-type-d-article",
+				"htdocs\\scripts\\produktdetailseite\\elements-desktop\\product-detail-type-d-article.phtml"
+			],
+			[
+				"product-",
+				"htdocs\\_ui\\js\\app\\modules\\product-detail.js"
+			],
+			[
+				"product-detail-mobile-article-color",
+				"htdocs\\scripts\\produktdetailseite\\elements-mobile\\product-detail-mobile-article-color.phtml"
+			],
+			[
+				"main-content-2",
+				"htdocs\\scripts\\neukundenseiten\\elements-mobile\\main-content-2.phtml"
+			],
+			[
+				"widge",
+				"htdocs\\_ui\\js\\app\\modules\\last-viewed-widget.js"
+			],
+			[
+				"main-nav.phtml",
+				"htdocs\\scripts\\partials\\header-main-nav.phtml"
+			],
+			[
+				"_top",
+				"htdocs\\scss\\common\\src\\0_767\\organisms\\header\\_top.scss"
+			],
+			[
+				"layout-body",
+				"htdocs\\scripts\\layout\\layout-body.phtml"
+			],
+			[
+				"links",
+				"htdocs\\scripts\\index\\links.phtml"
+			],
+			[
+				"last-view",
+				"htdocs\\scss\\common\\src\\desktop\\organisms\\widgets\\_last-viewed-widget.scss"
+			],
+			[
+				"footer.ph",
+				"htdocs\\scripts\\partials\\footer.phtml"
+			],
+			[
+				"last",
+				"htdocs\\scripts\\content\\organisms\\last-viewed-widget.phtml"
+			],
+			[
+				"margins",
+				"htdocs\\scss\\theme-mey-edlich\\.sass-cache\\dc544ca73616cda4806b982e423410ffc5e17f96\\_margins.scssc"
+			],
+			[
+				"padding",
+				"htdocs\\scss\\common\\src\\desktop\\atoms\\margins\\_paddings.scss"
+			],
+			[
+				"_padding",
+				"htdocs\\scss\\common\\src\\0_767\\atoms\\margins\\_paddings.scss"
+			],
+			[
+				"2f1",
+				"htdocs\\scripts\\neukundenseiten\\2f1-4t-newlayout.phtml"
+			],
+			[
+				"detail-type-d",
+				"htdocs\\scripts\\produktdetailseite\\elements-desktop\\product-detail-type-d-article.phtml"
+			],
+			[
+				"utilit",
+				"htdocs\\scss\\common\\helper\\_utilities.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 307.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

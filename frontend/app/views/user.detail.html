@@ -1,0 +1,106 @@
+<!-- USER DETAIL -->
+<div class="user-detail pad-3p">
+	<div class="inside">
+
+		<div class="row">
+			<!-- Name -->
+			<div class="col-lg-6 marg-b20">
+				<label for="name">Name</label>
+				<input id="name" type="text" data-ng-model="user.name" placeholder="Enter name">
+				<div class="description">Please enter the name of this user.</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<!-- Username -->
+			<div class="col-lg-6 marg-b20">
+				<label for="username">Username</label>
+				<input id="username" type="text" data-ng-model="user.username" placeholder="Enter username">
+				<div class="description">Please enter the username of this user.</div>
+			</div>
+			<!-- Password -->
+			<div class="col-lg-6 marg-b20">
+				<label for="password">Password</label>
+				<input id="password" type="password" data-ng-model="user.password" placeholder="Enter password">
+				<div class="description">Please enter the password of this user.</div>
+			</div>
+		</div>
+
+		<!-- Admin -->
+		<div class="marg-b20">
+			<input type="checkbox" id="admin" data-ng-model="user.isAdmin" />
+			<label for="admin">User is Administrator</label>
+			<div class="description">Check, if the user is administrator.</div>
+		</div>
+
+		<div class="row">
+			<!-- OS -->
+			<div class="col-lg-6 marg-b20">
+				<label for="osselect">Operating System</label>
+				<select id="osselect" data-ng-model="user.osselect">
+					<option>Windows XP x86</option>
+					<option>Windows XP x64</option>
+					<option>Windows Vista x86</option>
+					<option>Windows Vista x64</option>
+					<option>Windows 7 x86</option>
+					<option>Windows 7 x64</option>
+					<option>Windows 8 x86</option>
+					<option>Windows 8 x64</option>
+					<option>Windows 8.1 x86</option>
+					<option>Windows 8.1 x64</option>
+					<option>Mac OS X 10.6 Snow Leopard</option>
+					<option>Mac OS X 10.7 Lion</option>
+					<option>Mac OS X 10.8 Mountain Lion</option>
+					<option>Mac OS X 10.9 Mavericks</option>
+					<option>Mac OS X 10.10 Yosemite</option>
+					<option>Mac OS X 10.11 El Capitan</option>
+					<option>Linux/Unix Distribution</option>
+				</select>
+				<div class="description">Choose operating system.</div>
+			</div>
+			<!-- OS Further Info -->
+			<div class="col-lg-6 marg-b20">
+				<label for="osinfo">OS Info</label>
+				<input id="osinfo" type="text" data-ng-model="user.osinfo" placeholder="e.g. Build No., Distribution">
+				<div class="description">Please futher info regarding your operating system.</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<!-- Host System -->
+			<div class="col-lg-6 marg-b20">
+				<label for="host">Host System</label>
+				<input id="host" type="text" data-ng-model="user.host" placeholder="e.g. Steinberg Cubase 8">
+				<div class="description">Please enter the host system and version.</div>
+			</div>
+			<!-- Soundcard -->
+			<div class="col-lg-6 marg-b20">
+				<label for="soundcard">Sound Card / External DSP</label>
+				<input id="soundcard" type="text" data-ng-model="user.soundcard" placeholder="e.g. RME Fireface UCX">
+				<div class="description">Please provide info on your soundcard setup.</div>
+			</div>
+		</div>
+
+		<!-- Note -->
+		<div class="marg-b20">
+			<label for="description">Note</label>
+			<textarea id="description" data-ng-model="user.description" placeholder="Enter note"></textarea>
+			<div class="description">Please enter a note for this user.</div>
+		</div>
+	</div>
+</div>
+
+<!-- Save catalogue -->
+<div class="btn-wrapper marg-t20 pad-3p">
+	<div class="inside">
+		<button class="button button-grey inline-block" data-ng-click="saveUser(false)">
+			<span>Save User</span>
+		</button>
+
+		<button class="button button-grey inline-block" data-ng-click="saveUser(true)">
+			<span>Save & Close</span>
+		</button>
+	</div>
+</div>
+
+<div class="pad-b50"></div>

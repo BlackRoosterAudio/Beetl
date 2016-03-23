@@ -1,0 +1,17 @@
+<!-- REGISTRATION -->
+
+<div class="registration box">
+	<div class="inside">
+		<form novalidate class="simple-form">
+			Name: <input type="text" ng-model="user.name" ng-require="true" /><br />
+			E-mail: <input type="email" ng-model="user.email" ng-require="true" /><br />
+			Username: <input type="text" ng-model="user.username" ng-require="true" /><br />
+			Password: <input type="password" ng-model="user.password" ng-require="true" /><br />
+			Confirmation: <input type="password" ng-model="user.confirmation" ng-require="true" /><br />
+			Invitation Code: <input type="text" ng-model="user.invitationCode" ng-require="true" /><br />
+			<input type="submit" class="button w100" ng-click="createUser()" value="Save" />
+		</form>
+	</div>
+</div>
+
+<div class="pad-b50"></div>

@@ -1,0 +1,122 @@
+<!-- CATALOGUES DETAIL -->
+
+<div class="catalogue-detail pad-3p">
+	<div class="inside">
+
+		<div class="row">
+			<!-- Title -->
+			<div class="col-lg-6 marg-b20">
+				<label for="title">Catalogue Title</label>
+				<input id="title" type="text" data-ng-model="catalogue.title" placeholder="Enter title" data-ng-disabled="!currentUser.isAdmin">
+				<div class="description">Please enter the title for this catalogue.</div>
+			</div>
+
+			<!-- Project -->
+			<div class="col-lg-6 marg-b20">
+				<label for="title">Project</label>
+				<select data-ng-model="catalogue.project" data-ng-options="project._id as project.title for project in projects" data-ng-disabled="!currentUser.isAdmin">
+					<option value="" disabled="disabled" selected="selected">- Bitte wählen -</option>
+				</select>
+				<div class="description">Please select the project that is bound to this catalogue.</div>
+			</div>
+		</div>
+
+		<!-- Description -->
+		<div class="marg-b20">
+			<label for="description">Description</label>
+			<textarea id="description" data-ng-model="catalogue.description" placeholder="Enter description" data-ng-disabled="!currentUser.isAdmin"></textarea>
+			<div class="description">Please enter a description for this catalogue.</div>
+		</div>
+
+		<!-- Step Table -->
+		<table class="table table-bordered table-hover table-condensed">
+			<thead>
+				<th>Test Step</th>
+				<th>Test Data</th>
+				<th>Expectation</th>
+				<th>Edit</th>
+			</thead>
+			<tr ng-repeat="step in catalogue.data" data-ng-class="step.class">
+				<td>
+					<!-- editable stepname (text with validation) -->
+					<span editable-textarea="step.name" e-name="name" e-form="rowform">
+					{{ step.name }}
+					</span>
+				</td>
+				<td>
+					<!-- editable status (select-local) -->
+					<span editable-textarea="step.data" e-name="data" e-form="rowform">
+					{{ step.data }}
+					</span>
+				</td>
+				<td>
+					<!-- editable group (select-remote) -->
+					<span editable-textarea="step.expectation" e-name="expectation" e-form="rowform">
+					{{ step.expectation }}
+					</span>
+				</td>
+				<td data-ng-if="currentUser.isAdmin" style="white-space: nowrap">
+					<!-- form -->
+					<form editable-form name="rowform" onbeforesave="saveStep($data, step.id)" ng-show="rowform.$visible" class="form-buttons form-inline" shown="inserted == step">
+						<button type="submit" ng-disabled="rowform.$waiting" class="btn btn-primary">
+						save
+						</button>
+						<button type="button" ng-disabled="rowform.$waiting" ng-click="rowform.$cancel()" class="btn btn-default">
+						cancel
+						</button>
+					</form>
+					<div class="buttons" ng-show="!rowform.$visible">
+						<button class="button" ng-click="rowform.$show()">edit</button>
+						<button class="button button-red" ng-click="removeStep($index)">del</button>
+					</div>
+				</td>
+				<td data-ng-if="!currentUser.isAdmin">
+					<div data-ng-if="step.state !== 'accepted' && step.state !== 'declined' && step.state !== 'undone'">
+						<div class="action" data-ng-click="acceptStep($index)"><i class="glyphicon glyphicon-ok green"></i></div>
+						<div class="action" data-ng-click="declineStep($index)"><i class="glyphicon glyphicon-remove red"></i></div>
+					</div>
+					<div data-ng-if="step.state === 'accepted'">
+						Accepted!
+					</div>
+					<div data-ng-if="step.state === 'declined'">
+						Failed!
+					</div>
+					<div data-ng-if="step.state === 'undone'">
+						Undone!
+					</div>
+				</td>
+			</tr>
+		</table>
+
+		<button data-ng-if="currentUser.isAdmin" class="button button-highlight" ng-click="addStep()">+ Add row</button>
+
+		<!-- Error Note -->	
+		<div class="marg-b20" data-ng-if="hasError && !currentUser.isAdmin">
+			<label for="errorNote">Error Note / Bug Report</label>
+			<textarea id="errorNote" data-ng-model="catalogue.errorNote" placeholder="Enter error note"></textarea>
+			<div class="description">Please enter the error note for this catalogue (debug report).</div>
+		</div>
+	</div>
+</div>
+
+<!-- ADMIN MODE Save catalogue -->
+<div class="btn-wrapper marg-t20 pad-3p" data-ng-if="currentUser.isAdmin">
+	<button class="button inline-block" data-ng-click="saveCatalogue(false)">
+		<span>Save Catalogue</span>
+	</button>
+
+	<button class="button inline-block" data-ng-click="saveCatalogue(true)">
+		<span>Save & Close</span>
+	</button>
+</div>
+
+<!-- REGULAR MODE Save catalogue -->
+<div class="btn-wrapper marg-t20 pad-3p" data-ng-if="!currentUser.isAdmin">
+	<div class="inside">
+		<button class="button inline-block" data-ng-click="saveResult()">
+			<span>Save Result</span>
+		</button>
+	</div>
+</div>
+
+<div class="pad-b50"></div>

@@ -1,0 +1,157 @@
+// PADDING XS //
+@media (min-width: 0px) and (max-width: 767px) {
+    .pad-xs-0 {
+	    padding: 0;
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-xs-t#{$i * 5} {
+	        padding-top: $i * 5px;
+	    }
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-xs-r#{$i * 5} {
+	        padding-right: $i * 5px;
+	    }
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-xs-b#{$i * 5} {
+	        padding-bottom: $i * 5px;
+	    }
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-xs-l#{$i * 5} {
+	        padding-left: $i * 5px;
+	    }
+	}
+}
+
+// PADDING SM //
+@media (min-width: 768px) and (max-width: 991px) {
+    .pad-sm-0 {
+	    padding: 0;
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-sm-t#{$i * 5} {
+	        padding-top: $i * 5px;
+	    }
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-sm-r#{$i * 5} {
+	        padding-right: $i * 5px;
+	    }
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-sm-b#{$i * 5} {
+	        padding-bottom: $i * 5px;
+	    }
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-sm-l#{$i * 5} {
+	        padding-left: $i * 5px;
+	    }
+	}
+}
+
+// PADDING MD //
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pad-md-0 {
+	    padding: 0;
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-md-t#{$i * 5} {
+	        padding-top: $i * 5px;
+	    }
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-md-r#{$i * 5} {
+	        padding-right: $i * 5px;
+	    }
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-md-b#{$i * 5} {
+	        padding-bottom: $i * 5px;
+	    }
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-md-l#{$i * 5} {
+	        padding-left: $i * 5px;
+	    }
+	}
+}
+
+// PADDING LG //
+@media (min-width: 1200px) {
+	.pad-lg-0 {
+	    padding: 0;
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-lg-t#{$i * 5} {
+	        padding-top: $i * 5px;
+	    }
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-lg-r#{$i * 5} {
+	        padding-right: $i * 5px;
+	    }
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-lg-b#{$i * 5} {
+	        padding-bottom: $i * 5px;
+	    }
+	}
+
+	@for $i from 0 through 10 {
+	    .pad-lg-l#{$i * 5} {
+	        padding-left: $i * 5px;
+	    }
+	}
+}
+
+// General
+.pad-0 {
+    padding: 0;
+}
+
+@for $i from 0 through 10 {
+    .pad-t#{$i * 5} {
+        padding-top: $i * 5px;
+    }
+}
+
+@for $i from 0 through 10 {
+    .pad-r#{$i * 5} {
+        padding-right: $i * 5px;
+    }
+}
+
+@for $i from 0 through 10 {
+    .pad-b#{$i * 5} {
+        padding-bottom: $i * 5px;
+    }
+}
+
+@for $i from 0 through 10 {
+    .pad-l#{$i * 5} {
+        padding-left: $i * 5px;
+    }
+}
+
+.pad-3p {
+	padding-left: 3%;
+	padding-right: 3%;
+}
