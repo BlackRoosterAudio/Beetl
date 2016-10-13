@@ -36,7 +36,7 @@ angular.module('beetlApp').controller('CatalogueDetailCtrl', ['$scope', '$rootSc
 
 	/**
 	 * The function will remove the selected step from
-	 * the list of test steps 
+	 * the list of test steps
 	 */
 	$scope.removeStep = function(index) {
 		$scope.catalogue.data.splice(index, 1);
@@ -46,16 +46,34 @@ angular.module('beetlApp').controller('CatalogueDetailCtrl', ['$scope', '$rootSc
 	 * The function will add an aditional step to
 	 * the list of test steps (empty slot)
 	 */
-	$scope.addStep = function() {
-		$scope.inserted = {
-			id: $scope.catalogue.data.length + 1,
-			name: '',
-			status: null,
-			group: null
+	$scope.addStep = function(index) {
+		var inserted = {
+			id     : $scope.catalogue.data.length + 1,
+			name   : '',
+			status : null,
+			group  : null
 		};
-		$scope.catalogue.data.push($scope.inserted);
+    	
+		if(index) {
+			$scope.catalogue.data.splice((index + 1), 0, inserted);	
+		} else {
+			$scope.catalogue.data.push(inserted);
+		}	
 	};
-	
+
+  $scope.move = function(index, direction) {
+    if(direction === 'up' && index > 0) {
+		var _tmp                         = $scope.catalogue.data[index];
+		$scope.catalogue.data[index]     = $scope.catalogue.data[index - 1];
+		$scope.catalogue.data[index - 1] = _tmp;
+    }
+    if(direction === 'down' && index < ($scope.catalogue.data.length - 1)) {
+		var _tmp                         = $scope.catalogue.data[index];
+		$scope.catalogue.data[index]     = $scope.catalogue.data[index + 1];
+		$scope.catalogue.data[index + 1] = _tmp;
+    }
+  };
+
 	/**
 	 * The function will save the current catalogue
 	 * to the database (API update request)
@@ -67,7 +85,12 @@ angular.module('beetlApp').controller('CatalogueDetailCtrl', ['$scope', '$rootSc
 			}
 		});
 	};
-	
+
+  $scope.nl2br = function(str) {
+    var breakTag = '<br>';
+    return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
+  }
+
 	/**
 	 * The function will save the current selected
 	 * acceptance progress to the database (API set request)
@@ -77,8 +100,11 @@ angular.module('beetlApp').controller('CatalogueDetailCtrl', ['$scope', '$rootSc
 
 		var payload = {
 			catalogue   : $scope.catalogue._id,
-			testedBy	: $rootScope.currentUser.id,
-			data  		: $scope.catalogue.data,
+      title       : $scope.catalogue.title,
+      description : $scope.catalogue.description,
+      project     : $scope.catalogue.project,
+			testedBy	  : $rootScope.currentUser.id,
+			data  		  : $scope.catalogue.data,
 			errorNote   : $scope.catalogue.errorNote
 		};
 
@@ -86,9 +112,9 @@ angular.module('beetlApp').controller('CatalogueDetailCtrl', ['$scope', '$rootSc
 			$state.go('catalogueList');
 		});
 	};
-	
+
 	/**
-	 * The function will accept the selected step 
+	 * The function will accept the selected step
 	 * and update some styling
 	 */
 	$scope.acceptStep = function(index) {
@@ -100,9 +126,9 @@ angular.module('beetlApp').controller('CatalogueDetailCtrl', ['$scope', '$rootSc
 			$scope.catalogue.data[i].class = 'accepted';
 		}
 	};
-	
+
 	/**
-	 * The function will decline the selected step 
+	 * The function will decline the selected step
 	 * and update some styling
 	 */
 	$scope.declineStep = function(index) {
