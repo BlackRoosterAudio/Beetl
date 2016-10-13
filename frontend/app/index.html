@@ -36,8 +36,8 @@
           <a data-ng-if="$root.currentUser.isAdmin" ui-sref="resultList" ui-sref-active="active">Results</a>
           <a data-ng-if="$root.currentUser.isAdmin" ui-sref="projectList" ui-sref-active="active">Projects</a>
           <a data-ng-if="$root.currentUser.isAdmin" ui-sref="userList" ui-sref-active="active">Users</a>
-          <!--<a ui-sref="settings" ui-sref-active="active" class="border-right-white">Settings</a>-->
           <a ui-sref="profile" ui-sref-active="active">Profile</a>
+          <a data-ng-if="$root.$state.current.name !== 'login'" ui-sref="login" ui-sref-active="active">Logout</a>
           <div class="clearfix"></div>
         </div>
       </section>

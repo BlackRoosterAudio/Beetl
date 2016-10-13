@@ -14,7 +14,7 @@ angular.module('beetlApp').factory('apiHandler', ['$http', function($http) {
     $http.defaults.headers.common['Content-Type'] = 'application/json';
 
     // Prequisites
-    var urlBase     = 'http://localhost:8091';
+    var urlBase     = 'http://beetl.blackroosteraudio.com:8091';
     var apiHandler  = {};
 
     // Authentication

@@ -109,6 +109,7 @@ app.run(['$rootScope', '$state', 'editableOptions', 'editableThemes', function($
 	// Globals
 	$rootScope.currentUser = {};
 	$rootScope.helper      = {};
+	$rootScope.$state      = $state;
 
 	// Grab currentUser from local storage
 	try {
@@ -120,8 +121,10 @@ app.run(['$rootScope', '$state', 'editableOptions', 'editableThemes', function($
 	$rootScope.$on("$stateChangeStart", function(event, toState, toParams, fromState) {
 	    if((!$rootScope.currentUser || !$rootScope.currentUser.id) && toState.name !== 'login' && toState.name !== 'registration') {
 			$state.go('login');
+
 			event.preventDefault();
 	    }
+	    $rootScope.$state = $state;
 	});
 
 	// Helper Functions

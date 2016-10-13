@@ -11,10 +11,6 @@ var config     = require(__dirname + '/app/config/config.js');
 var port       = process.env.PORT || 8091;
 var models     = [];
 
-// Set logfile
-var logFile = fs.createWriteStream('./apiLogFile.log', {flags: 'a'});
-app.use(express.logger({stream: logFile}));
-
 // Use Bodyparse
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());

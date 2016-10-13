@@ -88,7 +88,7 @@
 			</tr>
 		</table>
 
-		<button data-ng-if="currentUser.isAdmin" class="button button-highlight" ng-click="addStep()">+ Add row</button>
+		<button data-ng-if="currentUser.isAdmin" data-ng-if="currentUser.isAdmin" class="button button-highlight" ng-click="addStep()">+ Add row</button>
 
 		<!-- Error Note -->	
 		<div class="marg-b20" data-ng-if="hasError && !currentUser.isAdmin">

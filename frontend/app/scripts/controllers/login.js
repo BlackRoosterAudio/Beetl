@@ -9,6 +9,9 @@
  */
 angular.module('beetlApp').controller('LoginCtrl', ['$scope', '$rootScope', '$http', 'apiHandler', '$state', function($scope, $rootScope, $http, apiHandler, $state) {
 	
+	$rootScope.currentUser                        = null;
+	$http.defaults.headers.common['beetl-bearer'] = null;
+
 	/**
 	 * The function will try to authenticate the user
 	 * against the api, given the credentials on $scope
