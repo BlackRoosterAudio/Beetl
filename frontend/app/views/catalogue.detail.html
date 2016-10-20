@@ -85,7 +85,9 @@
       </table>
     </form>
 
-    <button class="button button-highlight" ng-click="addStep()"><i class="glyphicon glyphicon-plus"></i></button>
+    <button class="button button-highlight" data-ng-click="addStep()" data-ng-if="currentUser.isAdmin">
+      <i class="glyphicon glyphicon-plus"></i>
+    </button>
 
 		<!-- Error Note -->
 		<div class="marg-b20" data-ng-if="hasError && !currentUser.isAdmin">

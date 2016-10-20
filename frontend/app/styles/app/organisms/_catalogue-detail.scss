@@ -31,7 +31,9 @@
 			font-size: 90%;
 			line-height: 1.2em;
 			width: 30%;
-			height: 130px;
+			min-height: 130px;
+  			height: auto !important;
+  			height: 130px;
 			vertical-align: top;
 			padding: 5px;
 			&:last-child {
