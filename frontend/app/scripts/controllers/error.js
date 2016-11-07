@@ -27,10 +27,12 @@ angular.module('beetlApp').controller('ErrorCtrl', ['$scope', '$stateParams', fu
 			message : 'The catalogue could not be deleted.'
 		},
 		{
-			message : 'Login failed.'
+			message : 'Login failed.',
+			back2Login : true
 		},
 		{
-			message : 'No user found.'
+			message : 'No user found.',
+			back2Login : true
 		}
 	];
 

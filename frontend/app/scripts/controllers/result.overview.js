@@ -30,6 +30,13 @@ angular.module('beetlApp').controller('ResultOverviewCtrl', ['$scope', '$rootSco
 	// Grab all results based on choosen catalogue
 	apiHandler.getResultByCatalogue(catalogueId)
 		.success(function(res) {
+
+			if($scope.currentUser && !$scope.currentUser.isAdmin) {
+				res = res.filter(function(obj) {
+					return obj.testedBy === $scope.currentUser.id;
+				});
+			};
+
 			$scope.results        = res;
 			$scope.countCompleted = 0;
 			$scope.reference      = $scope.results[0];

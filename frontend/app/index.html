@@ -33,7 +33,7 @@
       <section class="navigation marg-b20">
         <div class="inside" data-ng-class="$root.currentUser.id ? '' : 'inactive'">
           <a ui-sref="catalogueList" ui-sref-active="active">Catalogues</a>
-          <a data-ng-if="$root.currentUser.isAdmin" ui-sref="resultList" ui-sref-active="active">Results</a>
+          <a ui-sref="resultList" ui-sref-active="active">Results</a>
           <a data-ng-if="$root.currentUser.isAdmin" ui-sref="projectList" ui-sref-active="active">Projects</a>
           <a data-ng-if="$root.currentUser.isAdmin" ui-sref="userList" ui-sref-active="active">Users</a>
           <a ui-sref="profile" ui-sref-active="active">Profile</a>

@@ -11,7 +11,6 @@ angular.module('beetlApp').controller('UserDetailCtrl', ['$scope', '$state', '$s
 	
 	// Prequisites
 	var userId       = $stateParams.id;
-	var initialPW    = '';
 	$scope.user      = {};
 
 	/**
@@ -19,8 +18,9 @@ angular.module('beetlApp').controller('UserDetailCtrl', ['$scope', '$state', '$s
 	 */
 	apiHandler.getUser(userId)
 		.success(function(res) {
+			res.password = '';
+
 			$scope.user = res;
-			initialPW   = $scope.user.password;
 		})
 		.error(function(err) {
 			$state.go('errorPage', { errorId: 2, msg: err });
@@ -33,8 +33,8 @@ angular.module('beetlApp').controller('UserDetailCtrl', ['$scope', '$state', '$s
 	 */
 	$scope.saveUser = function(redirect) {
 
-		if($scope.user.password === initialPW) {
-			$scope.user.password = undefined;
+		if($scope.user.password == '') {
+			delete $scope.user.password;
 		}
 
 		apiHandler.updateUser($scope.user).success(function() {

@@ -28,7 +28,7 @@
 </div>
 
 <!-- Create new catalogue -->
-<div class="btn-wrapper marg-t20 pad-3p">
+<div data-ng-if="currentUser.isAdmin" class="btn-wrapper marg-t20 pad-3p">
 	<div class="inside">
 		<button class="button" data-ng-click="createCatalogue()">
 			<span>+ Create new Catalogue</span>

@@ -119,7 +119,7 @@ app.run(['$rootScope', '$state', 'editableOptions', 'editableThemes', function($
 
 	// Redirect to login
 	$rootScope.$on("$stateChangeStart", function(event, toState, toParams, fromState) {
-	    if((!$rootScope.currentUser || !$rootScope.currentUser.id) && toState.name !== 'login' && toState.name !== 'registration') {
+	    if((!$rootScope.currentUser || !$rootScope.currentUser.id) && toState.name !== 'errorPage' && toState.name !== 'login' && toState.name !== 'registration') {
 			$state.go('login');
 
 			event.preventDefault();

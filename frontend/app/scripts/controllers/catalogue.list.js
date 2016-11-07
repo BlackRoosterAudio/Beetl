@@ -34,7 +34,6 @@ angular.module('beetlApp').controller('CatalogueListCtrl', ['$scope', '$rootScop
 				for (var j = 0; j < $scope.results.length; j++) {
 					if ($scope.currentUser.id == $scope.results[j].testedBy && $scope.results[j].catalogue == $scope.catalogues[i]._id) {
 						$scope.catalogues[i].alreadyDone = true;
-						console.log('found in', $scope.catalogues[i]);
 					}
 				}
 			}
@@ -80,25 +79,29 @@ angular.module('beetlApp').controller('CatalogueListCtrl', ['$scope', '$rootScop
 	 * The function will delete the given catalogue
 	 */
 	$scope.deleteCatalogue = function(id) {
-		apiHandler.deleteCatalogue(id)
-			.success(function() {
-				initializeCatalogueList();
-			})
-			.error(function(err) {
-				$state.go('errorPage', { errorId: 4, msg: err });
-			});
+		if($scope.currentUser && $scope.currentUser.isAdmin) {
+			apiHandler.deleteCatalogue(id)
+				.success(function() {
+					initializeCatalogueList();
+				})
+				.error(function(err) {
+					$state.go('errorPage', { errorId: 4, msg: err });
+				});
+		}
 	};
 
 	/**
 	 * The function will create a new catalogue object
 	 */
 	$scope.createCatalogue = function() {
-		apiHandler.setCatalogue()
-			.success(function(res) {
-				$state.go('catalogueDetail', { id: res.id });
-			})
-			.error(function(err) {
-				$state.go('errorPage', { errorId: 3, msg: err });
-			});
+		if($scope.currentUser && $scope.currentUser.isAdmin) {
+			apiHandler.setCatalogue()
+				.success(function(res) {
+					$state.go('catalogueDetail', { id: res.id });
+				})
+				.error(function(err) {
+					$state.go('errorPage', { errorId: 3, msg: err });
+				});
+		}
 	};
 }]);

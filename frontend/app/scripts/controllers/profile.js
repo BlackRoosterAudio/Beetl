@@ -24,6 +24,9 @@ angular.module('beetlApp').controller('ProfileCtrl', ['$scope', '$state', '$root
 	 */
 	apiHandler.getUser(userId)
 		.success(function(res) {
+
+			res.password = '';
+
 			$scope.profile = res;
 		})
 		.error(function(err) {
@@ -36,6 +39,12 @@ angular.module('beetlApp').controller('ProfileCtrl', ['$scope', '$state', '$root
 	 * @param  {boolean} redirect [return to userList]
 	 */
 	$scope.saveProfile = function() {
-		apiHandler.updateUser($scope.profile);
+		if($scope.profile.password == '') {
+			delete $scope.profile.password;
+		}
+
+		apiHandler.updateUser($scope.profile).success(function() {
+			$state.go('catalogueList');
+		});
 	};
 }]);
