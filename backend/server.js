@@ -61,7 +61,7 @@ var authenticateRequest = function(req, fn) {
         }
 
         // Bearer tstamp comparison --> 15 Minutes
-        if(data[0].bearertstamp < (Date.now() - 900000)) {
+        if(data[0].bearertstamp < (Date.now() - 3600000)) {
             return fn(false);
         }
 
