@@ -8,7 +8,7 @@ var fs         = require('fs');
 var extend     = require('util')._extend;
 var bodyParser = require('body-parser');
 var config     = require(__dirname + '/app/config/config.js');
-var port       = process.env.PORT || 8091;
+var port       = 30123 || process.env.PORT || 8091;
 var models     = [];
 
 // Use Bodyparse
